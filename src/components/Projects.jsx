@@ -129,17 +129,18 @@ function Projects() {
 
                 <h2>
 
-                    AI systems
+                    Full stack
 
-                    <span> I've built.</span>
+                    <span> products I've built.</span>
 
                 </h2>
 
 
                 <p>
 
-                    Real-world AI, RAG and automation
-                    work from my engineering journey.
+                    End-to-end business systems built with
+                    Python, FastAPI, React.js, PostgreSQL,
+                    and Redis.
 
                 </p>
 
