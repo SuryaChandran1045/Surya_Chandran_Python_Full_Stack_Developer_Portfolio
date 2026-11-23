@@ -2175,23 +2175,19 @@
 
         opacity:
             0;
-
-        transform:
-            scale(.7);
     }
 
     to {
 
         opacity:
             1;
-
-        transform:
-            scale(1);
     }
 }
 
 
 /* SKILL POSITIONS */
+
+
 
 .lighthouse-skill:nth-child(1) {
 
@@ -2239,7 +2235,7 @@
 .lighthouse-skill:nth-child(5) {
 
     bottom:
-        5%;
+        12%;
 
     left:
         50%;
@@ -2276,6 +2272,13 @@
 
     left:
         4%;
+}
+
+.lighthouse-skills .lighthouse-skill {
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
 }
 
 
@@ -4610,7 +4613,7 @@
     .lighthouse-skill:nth-child(5) {
 
         bottom:
-            3%;
+            12%;
 
         left:
             50%;
@@ -4980,6 +4983,18 @@
             70px;
     }
 
+}
+
+
+/* =========================================================
+   DYNAMIC SKILL POSITIONS
+========================================================= */
+
+.lighthouse-skills .lighthouse-skill:nth-child(n) {
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
 }
 
 

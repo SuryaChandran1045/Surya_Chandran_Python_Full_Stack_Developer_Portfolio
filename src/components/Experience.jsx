@@ -14,15 +14,29 @@ const experiences = [
         ]
     },
     {
-        label: "PREVIOUS ROLE",
-        period: "JUN 2023 - JAN 2024",
-        role: "Full Stack Developer Intern",
-        company: "KodNest Technologies",
+        label: "PROJECT EXPERIENCE",
+        period: "APR 2025 - PRESENT",
+        role: "TeaMS ERP — Full Stack Developer",
+        company: "Nilgiri Likemind Technologies",
         description:
-            "Gained hands-on experience with Java, Python, MySQL, HTML, CSS, JavaScript and React while contributing to real-time projects.",
+            "Building and enhancing ERP workflows for 100+ daily users across seven core modules.",
         achievements: [
-            "Contributed across the full development lifecycle and applied manual testing before deployment.",
-            "Collaborated with the team to solve development and debugging challenges."
+            "Developed 20+ REST API endpoints for workflows, integrations, authentication and frontend data exchange.",
+            "Designed normalized SQL schemas and indexing strategies that improved report generation by ~30%.",
+            "Implemented JWT-secured role-based access and unit/API tests with ~80% core-module coverage."
+        ]
+    },
+    {
+        label: "PROJECT EXPERIENCE",
+        period: "APR 2024 - MAY 2025",
+        role: "Stanes I2P — Full Stack Developer",
+        company: "Stanes Tea Estate",
+        description:
+            "Developed an Indent-to-Purchase platform using FastAPI, React.js, PostgreSQL and Redis.",
+        achievements: [
+            "Digitized ~80% of manual procurement workflows across demand, supplier and approval processes.",
+            "Built intelligent price comparisons and document pipelines, reducing decision and retrieval time.",
+            "Automated multi-level approvals, notifications and real-time status dashboards."
         ]
     }
 ];

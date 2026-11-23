@@ -92,7 +92,7 @@ function About() {
 
                         <p>
                             vector_db:
-                            <em>"PostgreSQL + Redis"</em>
+                            <em>"Milvus + ChromaDB + FAISS"</em>
                         </p>
 
                         <p>

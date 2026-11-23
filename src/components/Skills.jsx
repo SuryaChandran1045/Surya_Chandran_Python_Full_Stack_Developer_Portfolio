@@ -4,10 +4,86 @@ import {
     FaBrain,
     FaServer,
     FaReact,
-    FaDatabase
+    FaDatabase,
+    FaCode,
+    FaCloud
 } from "react-icons/fa";
 
 const categories = [
+    {
+        id: "languages",
+        title: "Programming Languages",
+        icon: <FaCode />,
+        skills: [
+            "Python",
+            "JavaScript ES6+",
+            "TypeScript",
+            "SQL",
+            "Bash",
+            "HTML5",
+            "CSS3"
+        ]
+    },
+    {
+        id: "frontend",
+        title: "Frontend",
+        icon: <FaReact />,
+        skills: [
+            "React.js",
+            "Next.js",
+            "Redux",
+            "React Query",
+            "Tailwind CSS",
+            "Material UI",
+            "Responsive Design"
+        ]
+    },
+    {
+        id: "backend",
+        title: "Backend",
+        icon: <FaServer />,
+        skills: [
+            "FastAPI",
+            "Django",
+            "Flask",
+            "RESTful APIs",
+            "SQLAlchemy",
+            "Pydantic",
+            "JWT / OAuth2",
+            "Celery",
+            "Background Tasks"
+        ]
+    },
+    {
+        id: "database",
+        title: "Databases & Caching",
+        icon: <FaDatabase />,
+        skills: [
+            "MySQL",
+            "PostgreSQL",
+            "MongoDB",
+            "Redis",
+            "SQLAlchemy ORM",
+            "Indexing"
+        ]
+    },
+    {
+        id: "devops",
+        title: "DevOps & Tools",
+        icon: <FaCloud />,
+        skills: [
+            "Docker",
+            "Docker Compose",
+            "Jenkins",
+            "GitHub Actions",
+            "Git",
+            "Linux",
+            "Nginx",
+            "Postman",
+            "VS Code",
+            "Jira"
+        ]
+    },
     {
         id: "genai",
         title: "AI / GenAI",
@@ -15,68 +91,19 @@ const categories = [
         skills: [
             "LangChain",
             "OpenAI API",
-            "LangChain",
             "RAG",
             "Prompt Engineering",
             "HuggingFace",
+            "Embeddings",
             "Milvus",
             "ChromaDB",
             "FAISS"
-        ]
-    },
-
-    {
-        id: "backend",
-        title: "Backend",
-        icon: <FaServer />,
-        skills: [
-            "Python",
-            "FastAPI",
-            "Django",
-            "Flask",
-            "RESTful APIs",
-            "Java",
-            "SQLAlchemy",
-            "Pydantic",
-            "JWT / OAuth2",
-            "Celery"
-        ]
-    },
-
-    {
-        id: "frontend",
-        title: "Frontend",
-        icon: <FaReact />,
-        skills: [
-            "React.js",
-            "Redux",
-            "React Query",
-            "JavaScript",
-            "TypeScript",
-            "Tailwind CSS",
-            "Material UI",
-            "Bootstrap"
-        ]
-    },
-
-    {
-        id: "database",
-        title: "Databases",
-        icon: <FaDatabase />,
-        skills: [
-            "MySQL",
-            "MariaDB",
-            "PostgreSQL",
-            "MongoDB",
-            "Redis",
-            "SQLAlchemy ORM",
-            "Indexing"
         ]
     }
 ];
 
 function Skills() {
-    const [selected, setSelected] = useState("genai");
+    const [selected, setSelected] = useState("languages");
 
     const activeCategory =
         categories.find(
@@ -216,16 +243,29 @@ function Skills() {
 
                     <div className="lighthouse-skills">
 
-                        {activeCategory.skills.map((skill) => (
+                        {activeCategory.skills.map((skill, index) => {
+                            const angle =
+                                (-90 + (360 / activeCategory.skills.length) * index)
+                                * (Math.PI / 180);
+                            const left = 50 + Math.cos(angle) * 37;
+                            const top = 50 + Math.sin(angle) * 37;
+
+                            return (
                             <div
                                 className="lighthouse-skill"
                                 key={skill}
+                                style={{
+                                    left: `${left}%`,
+                                    top: `${top}%`,
+                                    transform: "translate(-50%, -50%)"
+                                }}
                             >
                                 <span></span>
 
                                 {skill}
                             </div>
-                        ))}
+                            );
+                        })}
 
                     </div>
 

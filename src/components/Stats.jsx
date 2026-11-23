@@ -2,7 +2,7 @@ function Stats() {
 
     const stats = [
         {
-            number: "2Y 5M",
+            number: "2Y+",
             label: "IT EXPERIENCE"
         },
         {

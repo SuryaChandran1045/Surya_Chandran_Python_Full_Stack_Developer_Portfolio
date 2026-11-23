@@ -5,6 +5,7 @@ import {
     FaEnvelope,
     FaLinkedin,
     FaGithub,
+    FaPhone,
     FaPaperPlane,
     FaCheckCircle,
     FaExclamationCircle
@@ -131,6 +132,22 @@ function Contact() {
 
                     <div className="contact-links">
 
+                        {/* PHONE */}
+
+                        <a href="tel:+917418482348">
+
+                            <div>
+                                <FaPhone />
+                            </div>
+
+                            <span>
+                                <small>
+                                    PHONE
+                                </small>
+                                +91 74184 82348
+                            </span>
+
+                        </a>
 
                         {/* EMAIL */}
 

@@ -87,40 +87,28 @@ function Hero() {
                 </div>
 
                 <div className="ai-status">
-                    <span>AI ENGINE</span>
-                    <strong>ONLINE</strong>
+                    <span>FULL STACK</span>
+                    <strong>PRODUCTION READY</strong>
                 </div>
 
                 <div className="ai-node node-rag">
                     <span></span>
-                    RAG
+                    FASTAPI
                 </div>
 
                 <div className="ai-node node-llm">
                     <span></span>
-                    LLM
+                    REACT.JS
                 </div>
 
                 <div className="ai-node node-agent">
                     <span></span>
-                    AGENT
+                    REDIS
                 </div>
 
                 <div className="ai-node node-vector">
                     <span></span>
-                    VECTOR DB
-                </div>
-
-                <div className="ai-code code-rag">
-                    retriever.search()
-                </div>
-
-                <div className="ai-code code-agent">
-                    agent.route()
-                </div>
-
-                <div className="ai-code code-api">
-                    response: 200
+                    POSTGRESQL
                 </div>
 
             </div>

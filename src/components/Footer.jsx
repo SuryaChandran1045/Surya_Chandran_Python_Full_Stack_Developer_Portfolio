@@ -18,11 +18,11 @@ function Footer() {
             <div className="footer-stack">
                 PYTHON
                 <span>•</span>
-                PYTHON
-                <span>•</span>
                 FASTAPI
                 <span>•</span>
                 REACT.JS
+                <span>•</span>
+                POSTGRESQL
             </div>
 
             <div className="footer-social">
