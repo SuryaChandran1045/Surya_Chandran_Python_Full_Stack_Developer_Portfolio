@@ -36,7 +36,7 @@ function Footer() {
                 </a>
 
                 <a
-                    href="https://www.linkedin.com/in/surya-chandran-217492435"
+                    href="https://www.linkedin.com/in/suryac-pythonfullstackdeveloper/"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
