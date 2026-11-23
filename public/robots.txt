@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://surya-chandran-python-full-stack-de.vercel.app/sitemap.xml
