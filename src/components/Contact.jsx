@@ -158,7 +158,7 @@ function Contact() {
                         {/* LINKEDIN */}
 
                         <a
-                            href="https://www.linkedin.com/in/surya-chandran-217492435"
+                            href="www.linkedin.com/in/suryac-pythonfullstackdeveloper"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -173,7 +173,7 @@ function Contact() {
                                     LINKEDIN
                                 </small>
 
-                                surya-chandran-217492435
+                                suryac-pythonfullstackdeveloper
 
                             </span>
 
