@@ -78,7 +78,7 @@ function Navbar() {
                     </a>
 
                     <a
-                        href="https://www.linkedin.com/in/suryac-pythonfullstackdeveloper"
+                        href="https://www.linkedin.com/in/suryac-pythonfullstackdeveloper/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
