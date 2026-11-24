@@ -1,15 +1,17 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "redirects": [
     {
       "source": "/:path*",
+      "destination": "https://www.suryachandran.co.in/:path*",
+      "permanent": true,
       "has": [
         {
           "type": "host",
+          "key": "host",
           "value": "surya-chandran-python-full-stack-de.vercel.app"
         }
-      ],
-      "destination": "https://www.suryachandran.co.in/:path*",
-      "permanent": true
+      ]
     }
   ]
 }
